@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Gabriel Wechta Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="#" class="logo">GW</a>
+    <div class="toggle"></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programing.html">Programing</a></li>
+        <li><a href="bragging.html">Bragging</a></li>
+        <li><a href="interests.html">Interests</a></li>
+    </ul>
+</header>
+<section class="banner">
+    <section class="textBx">
+        <h2>Hi Dear, I am Gabriel Wechta.</h2>
+        <a href="#" class="btn">About Me</a>
+    </section>
+</section>
+<section class="about">
+    <h2>About Me</h2>
+
+    <h4>Birth</h4>
+    <p>I was born on Halloween eve in 1999 in Zielona Góra, Poland. After that, I am curiously happy when spooky
+        staff happen.
+        Furthermore, as everybody born around that time in Poland, I am used to getting presents around first of
+        November,
+        in Poland first of November is holiday, during which everybody gathers to go visit family graves.
+        <br>So graveyards are also my happy places.
+    </p>
+
+    <hr>
+
+    <h4>Education</h4>
+    <p>For the first 6 years of my life, I lived in Zielona Góra, then we moved to Jelenia Góra. Despite
+        similarity in names, places are pretty far from each other.
+        When I graduated Primary School, we moved again to Wrocław, which I am eternaly gratefoull for. There I
+        began junior high school, I was in architecture oriented class with extended math and art. Both bizzare and
+        wonderful.
+        When it comes to high school I went to Akademickie Liceum Ogólnokształcące Politechniki Wrocławskiej, which
+        is school directly under/conected to Wrocław University of Science and Technology.
+        Great time, as a high school student I had plenty opurunites to use University assets, both in form of
+        equipment and lecturers. Some of my teachers were high school teacher, some were academic, so while solid
+        fundaments were made for matura exam, I also get pretty good preperation for completly diffrent approach and
+        style of studing on university. The school understood this potential, and exerted it. For example my math
+        class was being taught by two teachers, one was prepering us for standard exam evaluation, when the other's
+        classes had more lecture flow.
+        <br>Despite, what you might expect about polytechnic high school, surprisingly afford was put into teaching
+        us decent humanities. At first with some difficultie, after with tremendous respect my science orietned
+        brain started to apprciate art, literature and philosophy.
+        <br>Now I am studying on Department of Fundamentals of Computer Science, on Wrocław University of Science and
+        Technology (in this case "fundamentals" is not synonym of "basics"). </p>
+    <hr>
+</section>
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        let header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+</script>
+<div class="footer-basic">
+    <footer>
+        <p class="copyright">Gabriel Wechta © 2021 <br>mail: wechtagabriel@gmail.com </p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://github.com/GabrielWechta">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://www.chess.com/member/7wodapokisielu">Chess</a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC3ZRWCNsn9DK6MPj4ER_B4Q">YouTube</a>
+            </li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>
